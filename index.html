@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700&subset=cyrillic' rel='stylesheet' type='text/css'><!-- fonts -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script><!-- script for Google Maps -->
+    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css"/>
+
+    <!-- SLIDER STYLED -->
+    <link rel="stylesheet" href="libs/slider/css/normalize.css">
+    <link rel="stylesheet" href="libs/slider/css/flexslider.css">
+    <link rel="stylesheet" href="libs/slider/css/demo.css">
+
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/media.css"> <!-- media style -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!-- Google Maps -->
+    <script>
+        function initialize() {
+            var mapProp = {
+                center:new google.maps.LatLng(49.836926, 24.004827),
+                zoom:8,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <title>IT Center Lviv</title>
+</head>
+<body>
+
+<!-- navigation -->
+
+<nav>
+    <ul>
+        <ul style="float:right;list-style-type:none;">
+            <li><a class="active" href="#about">About</a></li>
+            <li><a class="" href="#login">Login</a></li>
+        </ul>
+    </ul>
+</nav>
+
+<!-- end of navigation -->
+
+<!-- slider -->
+<section id="slider">
+    <div id="hero">
+
+        <div id="info">
+            <h2>Встановлення Windows</h2>
+
+            <p class="styles">
+
+            </p>
+
+        </div>
+
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="libs/slider/img/full/5.jpg" alt="icy Mountain" data-thumbnail="libs/slider/img/thumbnail/5.jpg" />
+                </li>
+                <li>
+                    <img src="libs/slider/img/full/3.jpg" alt="Stoney Creek" data-thumbnail="libs/slider/img/thumbnail/3.jpg" />
+                </li>
+                <li>
+                    <img src="libs/slider/img/full/2.jpg" alt="Narrow Road" data-thumbnail="libs/slider/img/thumbnail/2.jpg" />
+                </li>
+                <li>
+                    <img src="libs/slider/img/full/1.jpg" alt="Grey Sky" data-thumbnail="libs/slider/img/thumbnail/1.jpg"/>
+                </li>
+                <li>
+                    <img src="libs/slider/img/full/4.jpg" alt="Wood Pattern" data-thumbnail="libs/slider/img/thumbnail/4.jpg" />
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<!-- end of slider -->
+
+<!-- highlights -->
+<section id="highlights">
+    <div class="container">
+        <div class="row">
+            <div class="lead">
+                <h1>Чому нам слід довіряти - наші переваги:</h1>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-4">
+                <div class="roundimg">
+                    <i class="fa fa-thumbs-up"></i>
+                </div>
+                <div class="col-text">
+                    <h4>Висока якість</h4>
+                </div>
+                <div class="col-p">
+                    <p>Ваш ноутбук будуть ремонтувати професійні майстри, тому ми відповідаємо за якість і даємо гарантію та несемо відповідальність за гарантійні зобов'язання.</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="roundimg">
+                    <i class="fa fa-bomb"></i>
+                </div>
+                <div class="col-text">
+                    <h4>Найкращі ціни</h4>
+                </div>
+                <div class="col-p">
+                    <p>Ми пропонуємо повний пакет цін на ремонт ноутбуків та комп'ютерів у Львові. На сайті нашого сервісу ви можете з легкістю орієнтуватися в комп'ютерних послугах та цінах на них.</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="roundimg">
+                    <i class="fa fa-smile-o"></i>
+                </div>
+                <div class="col-text">
+                    <h4>Зручність</h4>
+                </div>
+                <div class="col-p">
+                    <p>Система обслуговування клієнтів включає в себе безкоштовну діагностику та ремонт комп'ютерної техніки вдома чи офісі. Ми узгоджуємо термін на усі роботи з замовником та не порушуємо їх.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- end of highlights -->
+
+
+<!-- callback -->
+<section id="callback">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="col-text">
+                    <h4>Зателефонуйте до нас по тел. (098) 00 888 62 або (093) 593 22 88</h4>
+                </div>
+                <div class="col-p">
+                    <p>або відправте нам повідомлення і ми вам передзвонимо через 10 хв.</p>
+                </div>
+                <div class="col-button">
+                    <button><a href="#" title="Замовити дзвінок">Замовити дзвінок</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of callback -->
+
+<hr>
+
+<!-- services -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="lead">
+                <h2>Пропонуємо наступні послуги:</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-plug"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Ремонт ноутбуків</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Заміна матриці ноутбука, ремонт елементів корпуса ноутбука...</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-keyboard-o"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Ремонт комп'ютерів</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Ремонт/заміна материнської плати, заміна відеокарти...</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-calculator"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Ремонт планшетів</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Заміна сенсорного екрану(тачскріну), ремонт...</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-windows"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Встановлення Windows</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Встановлення/перевстановлення Windows Vista, XP, 7, 8...</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-folder-open"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Відновлення інформації</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Відновлення інформації з жорсткого диску, флеш-носіїв...</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-wifi"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Налаштування Інтернету</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Підключення до Інтернету, налаштування модему, роутера...</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- end of services -->
+
+<hr>
+
+<!-- additional -->
+<section id="additional">
+    <div class="container">
+        <div class="row">
+            <div class="lead">
+                <h2>Додаткові послуги:</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-money"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Викуп неробочих ноутбуків</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Ви не знаєте як позбутися старого ноутбука? Ми можемо купити його по вигідній для Вас ціні</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-clock-o"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Терміновий ремонт</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Наша команда кваліфікованих майстрів зробить терміновий ремонт Вашої техніки будь-якої складності.</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-arrows-alt"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Абонентське обслуговування</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Зламався комп'ютер? Простій в роботі? Ми пропонуємо послугу абонентського обслуговування комп'ютерної техніки Вашої організації.</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-cogs"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Модернізація ноутбука</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Не хочете переплачувати за новий ноутбук? Ми можемо модернізувати Ваш старий ноутбук.</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="col-img">
+                    <i class="fa fa-globe"></i>
+                </div>
+                <div class="col-descr">
+                    <div class="col-text">
+                        <h5><a href="#">Створення сайтів</a></h5>
+                    </div>
+                    <div class="col-p">
+                        <p>Вам потрібен сайт? Створення сайтів будь-якого рівня складності в стислі терміни.</p>
+                    </div>
+                    <div class="col-more">
+                        <a href="#">Детальніше ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- end of additional -->
+
+<hr>
+
+<!-- find -->
+<section id="find">
+    <div class="container">
+        <div class="row">
+            <div class="lead">
+                <h2> Як нас знайти?</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="col-text">
+                    <h4>Графік роботи:</h4>
+                </div>
+                <div class="col-bold-p">
+                    <h5>Робочі дні :</h5>
+                </div>
+                <div class="col-p">
+                    <p>Пн-Пт: 10:00 - 19:00;</p>
+                    <p>Сб: 10:00 - 15:00</p>
+                </div>
+                <div class="col-bold-p">
+                    <h5>Вихідний: <span>Нд</span> </h5>
+                </div>
+                <div class="col-bold-p">
+                    <h5>Тел. (098) 0088862, (093) 5932288</h5>
+                </div>
+                <div class="col-bold-p">
+                    <h5>Email: <a href="#">itcenterlviv@gmail.com</a></h5>
+                </div>
+                <div class="col-p">
+                    <p>Замовлення приймаємо цілодобово!</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="col-text">
+                    <h4>Наша адреса:</h4>
+                </div>
+                <div class="col-p">
+                    <p>м.Львів, просп.Вячеслава Чорновола, 63, офіс 634</p>
+                </div>
+                <div id="googleMap"></div>
+            </div>
+            <div class="col-3">
+                <div class="col-text">
+                    <h4>Зробити замовлення:</h4>
+                </div>
+                <div class="col-p">
+                    <p>Заповніть форму і ми Вам обов'язково передзвонимо:</p>
+                </div>
+                <form action="" id="contact" method="post">
+                    <div id="fields">
+                        <p>
+                            <input type="text" name="name" id="author" placeholder="Ваше ім'я *" required>
+                        </p>
+                        <p>
+                            <input type="text" name="tel" id="tel" placeholder="Ваш телефон *" required>
+                        </p>
+                        <p><button type="submit" id="submit" class="go">Відправити</button></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of find -->
+
+<hr>
+
+<!-- footer -->
+<footer>
+    <div class="footer-text">
+        <h6>Copyright © 2016 <a href="#">ІТ Центр – Сервісний центр</a></h6>
+    </div>
+</footer>
+<!-- end of footer -->
+
+<!-- flexslider -->
+<script src="libs/slider/js/demo.js"></script>
+<script src="libs/slider/js/jquery.flexslider-min.js"></script>
+
+<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .col-3, .col-4, .col-6 {
+        width: 100%;
+        border: 1px solid darkorange;
+        float: left;
+    }
+    #callback .col-text h4 {
+        font-size: 16px;
+        line-height: 14px;
+        text-align: center;
+    }
+    #callback .col-p p {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+    }
+    #callback .col-button {
+        float: none;
+    }
+    #callback .col-button button {
+        width: 90%;
+        height: 40px;
+        background-color: #12b9e8;
+        border-radius: 3px;
+        display: block;
+        border: none;
+        margin-left: auto;
+        margin-right: auto
+    }
+    #highlights .lead h1, #services .lead h2, #additional .lead h2, #find .lead h2 {
+        font-size: 24px;
+    }
+    #find form button {
+        width: 98%;
+        margin: 0;
+    }
+    footer h6, footer h6 a {
+        text-align: center;
+    }
+
+    #info h2 {
+        margin-top: 30%;
+        font-size:20px;
+        text-transform:uppercase;
+        text-align:center;
+    }
+
+}

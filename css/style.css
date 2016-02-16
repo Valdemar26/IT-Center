@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body {
+    background: #eaeaea;
+    padding: 30px;
+    border: 1px solid fuchsia;
+
+}
+/* to all document */
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 18px;
+}
+.col-3 {
+    width: 25%;
+    border: 1px solid teal;
+    float: left;
+}
+.col-4 {
+    width: 33.33333333%;
+    border: 1px solid darkorange;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    border: 1px solid mediumspringgreen;
+    float: left;
+}
+hr {
+    width: 100%;
+    margin: 30px auto;
+    border: 2px solid #bfbfbf;
+}
+/* navigation */
+/*nav {
+    width: 100%;
+    min-height: 50px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c0c0c0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+*/
+
+
+
+
+/* end of navigation */
+
+/* slider */
+#slider {
+    width: 100%;
+    height: 450px;
+}
+
+/* end of slider */
+
+/* highlights */
+#highlights {
+    margin: 0 auto;
+}
+#highlights .lead h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.roundimg {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 38px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+    background: #2bb7ff;
+    color: #fff;
+    border-radius: 50%;
+}
+.roundimg:hover {
+    background: #ffa500;
+    transition: all 0.3s ease-in-out;
+}
+.col-text h4 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222222;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.col-p p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #666666;
+    font-weight: 300;
+}
+/* end of highlights */
+
+/* callback */
+#callback {
+    width: 100%;
+    padding: 20px;
+    border: 1px dotted red;
+    float: left;
+}
+#callback .col-12 {
+    width: 100%;
+    min-height: 100px;
+    border: 1px dashed #999999;
+    border-left: 3px solid #2bb7ff;
+    background: #bebebe;
+
+}
+#callback .col-text h4 {
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222222;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+    float: left;
+    padding-left: 40px;
+}
+#callback .col-p p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #666666;
+    font-weight: 300;
+    float: left;
+    padding-left: 40px;
+}
+#callback .col-button {
+    float: right;
+
+}
+#callback .col-button button {
+    width: 250px;
+    height: 40px;
+    background-color: #12b9e8;
+    border-radius: 3px;
+    display: block;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#callback .col-button button a {
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+/* end of callback */
+
+/* services */
+#services {
+    margin: 0 auto;
+    border: 1px dotted green;
+
+}
+#services .lead h2, #additional .lead h2, #find .lead h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #222;
+}
+#services .col-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #adff2f;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+float: left;
+}
+#services .col-img:hover {
+    background: #12b9e8;
+    transition: all 0.3s ease-in-out;
+}
+#services .col-descr, #additional .col-descr {
+    margin-left: 95px;
+}
+#services .col-descr .col-text h5, #additional .col-descr .col-text h5 {
+    margin-top: 0;
+}
+#services .col-descr .col-text h5 a, #additional .col-descr .col-text h5 a {
+    text-align: left;
+    color: #12b9e8;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 100;
+    vertical-align: baseline;
+}
+#services .col-descr .col-p p, #additional .col-descr .col-p p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+}
+#services .col-descr .col-more a, #additional .col-descr .col-more a {
+    color: #12b9e8;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 100;
+    text-decoration: none;
+}
+#services .col-4, #highlights .col-4, #additional .col-4 {
+    margin-bottom: 40px;
+}
+/* end of services */
+
+
+
+/* additional */
+#additional {
+    margin: 0 auto;
+    border: 1px dotted chartreuse;
+}
+
+#additional .col-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #daa520;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+#additional .col-img:hover {
+    background: #12b9e8;
+    transition: all 0.3s ease-in-out;
+}
+
+/* end of additional */
+
+/* find */
+#find {
+
+}
+
+/* find */
+#find {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px dashed indigo;
+}
+#find .col-text h4 {
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222222;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+}
+#find .col-bold-p h5:first-child {
+    margin-top: 20px;
+}
+#find .col-bold-p h5 {
+    color: #666666;
+    font-size: 16px;
+    margin: 0;
+}
+#find .col-bold-p a {
+    color: #12b9e8;
+    text-decoration: none;
+}
+#find .col-p p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    text-align: left;
+    margin: 0 auto;
+}
+#find .col-p p:last-child {
+    margin-bottom: 20px;
+}
+
+#googleMap {
+    width: 90%;
+    height: 300px;
+    margin: 0 5%;
+    padding:10px 0;
+    float: left;
+}
+#find form {
+    border: 1px dotted chartreuse;
+}
+#find form input {
+    width: 98%;
+    padding: 1%;
+    height: 30px;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+#find form button {
+    color: #ffffff;
+    background-color: #12b9e8;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+#find form button:hover {
+    cursor: pointer;
+}
+
+
+/* end of find */
+footer {
+    width: 100%;
+    float: left;
+    min-height: 20px;
+    background: #dfdfdf;
+}
+footer h6, footer h6 a {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #666666;
+    text-decoration: none;
+}
+footer h6 a:hover {
+    font-size: 12px;
+    color: #12b9e8;
+
+}
+/* end of footer */
